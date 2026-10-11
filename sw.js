@@ -1,6 +1,6 @@
 /* KW Assistent — Service Worker.
    Beim Ausrollen einer neuen Version VERSION hochzählen (build.py setzt sie aus APP_VERSION). */
-const VERSION = 'kw-assistent-v1.3.2';
+const VERSION = 'kw-assistent-v1.3.3';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
